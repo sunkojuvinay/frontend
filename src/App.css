@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.search {
+  width: 20%;
+  align-self: c;
+}
+
+
+h4 {
+  margin: 50px;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+  color: rgb(1, 1, 59);
+  padding-right: 20%;
+}
+
+
+ul li {
+  font-size: 20px;
+} 
+
+.navbar {
+  text-align: center;
+  color: red;
+}
+
