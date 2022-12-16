@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 body {
   margin: 0;
   /* background-image: url(./background11.jpg); */
@@ -16,8 +18,11 @@ code {
 
 html,
 body {
-  height: 100%;
-  font-family: sans-serif;
+  height: 150%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  /* width: fit-content; */
 }
 
 body {
@@ -46,6 +51,7 @@ body {
   display:block;
   height:25px;  
   width:100%;
+  margin-top: 300px;
   
 
 }

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
 .main {
   display: flex;
-  height: 100vh;
-  width: 100%;
+  height: 200vh;
+  width: 150%;
   align-items: center;
   flex-direction: column;
   row-gap: 5px;
@@ -12,23 +15,154 @@
   align-self: c;
 }
 
+h1{
 
-h4 {
-  margin: 50px;
-  font-size: 40px;
-  align-items: center;
-  text-align: center;
-  color: rgb(1, 1, 59);
-  padding-right: 20%;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 300px;
+  color: whitesmoke;
 }
 
 
-ul li {
+
+h4 {
+  margin-top: 30px;
+  margin-left: 550px;
+  font-size: 50px;
+  color: rgb(1, 1, 59);
+  
+}
+
+.MuiFormLabel-root{
+  position: sticky; 
+  margin-top: 30px;
+}
+
+
+.MuiFormGroup-root {
+  position: sticky;
+  margin-left: 400px;
+  margin-bottom: 20px;
+} 
+
+
+li {
+ 
+  margin-left: 50px;
+  margin-bottom: 5px;
+  margin-inline-start: 10px;
+} 
+
+/*-------------------------Dropdown----------------*/
+
+.dropdown-item {
+ 
+  margin-bottom: 10px;  
+}
+
+ul  {
+  margin-top: 30px;
+  margin-left: 150px;
   font-size: 20px;
 } 
 
-.navbar {
-  text-align: center;
-  color: red;
+h2{
+
+  margin-top: 30px;
+  margin-left: 200px;
 }
 
+.MuiTablePagination-root{
+  margin-bottom: 300px;
+}
+
+.MuiTableContainer-root{
+   border: 1px solid black;
+  margin-top: 100px;
+}
+
+.MuiTableHead-root{
+  margin-top: 10px;
+}
+
+/*-----------------------------------------Dropdown-----------------------*/
+
+.scrollable-menu {
+  height: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+}
+
+.heading{
+  text-decoration: wheat;
+ 
+ }
+
+ Navbar {
+
+  position: sticky;
+ }
+
+ .dropfilter{
+
+  position: absolute;
+    top: 150px;
+    margin-left :500px;
+    margin-top: 300px; 
+    
+ }
+
+ /*---------------------------Navbar-----------------------*/
+ 
+ h5{
+ 
+   font-size: medium;
+   font-weight: bold;
+   margin-left: 50px;
+   color: whitesmoke;
+   width: auto;
+ }
+
+ /*--------------------------SqlTable----------*/
+
+ .Sqlfilter{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: small ;
+  position: relative;
+  inline-size: auto;
+  justify-content: center;
+  /* margin: auto; */
+  outline: 3px inset black;
+  /* overflow: scroll; */
+  top: 250px;
+  padding-left: 5px;
+  /* height: auto; */
+  max-height: 600px;
+  overflow-y: auto;
+  table-layout: auto;
+  text-align: center;
+  white-space: nowrap;
+  /* width: fit-content; */
+  overflow-x: auto;
+  text-overflow: clip;
+  /* flex-wrap: wrap; */
+  align-content: center;
+  /* overflow-wrap: break-word; */
+  /* word-break: break-all; */
+  /* word-wrap: break-word; */
+ }
+ 
+
+ h3{
+margin-right: 150px;
+
+ }
+
+ /*----------------------SqlTable----------------*/
+
+ /*--------------------radiobutton-------------------*/
+/* .radiofilter{ 
+  position: absolute;
+    top: 50px;
+
+} */

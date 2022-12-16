@@ -5,8 +5,10 @@ import {FormControlLabel} from '@mui/material'
 import {RadioGroup} from '@mui/material'
 import {Radio} from '@mui/material'
 import React, { useState } from 'react'
-import { useHistory } from "react-router-dom";
+
 // import History from react
+import {Link} from 'react-router-dom';
+
 
 const Radiobutton = () => {
     const [Value, setValue] = useState('') 
@@ -32,9 +34,12 @@ const Radiobutton = () => {
 //     }
     }
   return (
+    <div className='radiofilter'>
     <Box>
       <FormControl>
-        <FormLabel id='selecting-database'>
+        
+          
+                  <FormLabel id='selecting-database'>
 
             <h4>Select Database</h4>
 
@@ -60,10 +65,12 @@ row
         <FormControl.Check onClick={() => setValue('SqlServer')} /> */}
  
         </RadioGroup>
+      
+
       </FormControl> 
       </Box>
-
-  )
+      </div>
+  );
     
-}
+};
 export default Radiobutton; 

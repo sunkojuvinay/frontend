@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="Navbar">
         <ReactBootStrap.Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" >
-      <ReactBootStrap.Navbar.Brand href="#home">Database Versions</ReactBootStrap.Navbar.Brand>
+      <ReactBootStrap.Navbar.Brand href="#home"><h1>Database Versions</h1></ReactBootStrap.Navbar.Brand>
         <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootStrap.Nav className="me-auto">
